@@ -1,0 +1,51 @@
+body {
+    /*колір фону*/
+    background-color: rgb(219, 253, 255);
+    /*колір тексту*/
+    color: rgb(119, 0, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*колір тексту посилання*/
+
+a {
+    color: rgb(255, 51, 0);
+}
+
+/*жирний шрифт*/
+span {
+    color: rgb(0, 148, 153);
+    font-weight: bold;
+}
+
+.p_first_abzac{
+    /*колір тексту*/
+    color: rgb(0, 102, 255);
+    /*курсив*/
+    font-style: italic;
+}
+
+.p_second_abzac{
+    color: rgb(6, 53, 153);
+    /*підкреслення тексту*/
+    text-decoration: underline;
+}
+
+/*вирівнювання по лівому краю*/
+.img_left{
+    float: left;
+    /*ширина картинки*/
+    width: 35%;
+    
+    margin: 10px;
+}
+
+.img_right{
+    /*вирівнювання по правому краю*/
+    float: right;
+    /*ширина картинки*/
+    width: 35%;
+
+    margin: 10px;
+}
